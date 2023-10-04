@@ -59,10 +59,10 @@ restaurant_pattern = re.compile(r'^([^\d-]+) -([^\d-]+)$', re.MULTILINE)
 ingredient_pattern = re.compile(r'^([^\d-]+(?:, ([^\d-]+))*)$', re.MULTILINE)
 rgb_pattern = re.compile(r'^rgb\((\d+), (\d+), (\d+)\)$', re.MULTILINE)
 usernames_pattern = re.compile(r'')
-productcode_pattern = re.compile(r'')
+productcode_pattern = re.compile(r'[A-Z]{3}[0-9]{3}', re.MULTILINE')
 headlines_pattern = re.compile(r'([^\d-]+): ([^\d-]+)$', re.MULTILINE)
-dates_pattern = re.compile(r'')
-email_pattern = re.compile(r'')
+dates_pattern = re.compile(r'([A-Za-z]{3} \d{2}, \d{4} - \d{2}:\d{2} (AM|PM))', re.MULTILINE)
+email_pattern = re.compile(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z0-9-.]+', re.MULTILINE)
 
 # functions to extract data
 
