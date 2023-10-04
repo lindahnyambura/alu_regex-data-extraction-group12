@@ -8,7 +8,7 @@ Taste of Italy - Italian
 Burger Blitz - Fast Food
 Vegan Vibes - Vegan
 Sushi Central - Japanese
-
+---
 Ingredient Lists:
 Flour, Sugar, Eggs, Butter, Palm oil
 Tomatoes, Basil, Mozzarella, Olive Oil, Crabs
