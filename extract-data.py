@@ -94,3 +94,10 @@ def extract_emails(data):
 #testing the functions
 
 print(extract_restaurants(data))
+print(extract_ingredients(data))
+print(extract_rgb(data))
+print(extract_usernames(data))
+print(extract_productcodes(data))
+print(extract_headlines(data))
+print(extract_dates(data))
+print(extract_emails(data))
