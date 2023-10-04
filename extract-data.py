@@ -56,8 +56,8 @@ delightsrestaurant@yahoo.fr
 # defining our regex patterns
 
 restaurant_pattern = re.compile(r'^([^\d-]+) -([^\d-]+)$', re.MULTILINE)
-ingredient_pattern = re.compile(r'')
-rgb_pattern = re.compile(r'rgb\((\d+), (\d+), (\d+)\)', re.MULTILINE')
+ingredient_pattern = re.compile(r'^([^\d-]+(?:, ([^\d-]+))*)$', re.MULTILINE)
+rgb_pattern = re.compile(r'^rgb\((\d+), (\d+), (\d+)\)$', re.MULTILINE)
 usernames_pattern = re.compile(r'')
 productcode_pattern = re.compile(r'')
 headlines_pattern = re.compile(r'')
