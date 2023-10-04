@@ -10,7 +10,7 @@ Vegan Vibes - Vegan
 Sushi Central - Japanese
 
 Ingredient Lists:
-Flour, Sugar, Eggs, Butter
+Flour, Sugar, Eggs, Butter, Palm oil
 Tomatoes, Basil, Mozzarella, Olive Oil, Crabs
 Chicken, Lettuce, Mayo, Bread, Tortillas
 Rice, Salmon, Avocado, Seaweed, Spinach
@@ -26,7 +26,7 @@ Social Media Usernames:
 @johnDoe45
 @tech_guru
 @codingMaster23
-@foodieLover
+@DelightsRestaurant
 
 Product Codes:
 XYZ001
@@ -41,16 +41,16 @@ Sports Update: Local Team Takes the Championship!
 Weather Warning: Heavy Rain Predicted for the Weekend
    
 Event Dates/Times:
-Oct 12, 2023 - 10:00 AM
+Oct 17, 2023 - 10:00 AM
 Nov 28, 2023 - 03:00 PM
 Dec 25, 2023 - 12:00 PM
-Oct 31, 2023 - 06:00 PM
+Oct 29, 2023 - 06:00 PM
    
 Email Addresses:
 johndoe@email.com
 tech.support@webserver.net
 sales@mybusiness.org
-delights@yahoo.fr
+delightsrestaurant@yahoo.fr
 """
 
 # defining our regex patterns
@@ -94,5 +94,3 @@ def extract_emails(data):
 #testing the functions
 
 print(extract_restaurants(data))
-
-#this is the structure we'll be working with, so we need to just put in our regex patterns to test
