@@ -54,7 +54,7 @@ info@school.edu"
 
 # defining our regex patterns
 
-restaurant_pattern = re.compile(r'^([^\d-]+) -([^\d-]+)$')
+restaurant_pattern = re.compile(r'^([^\d-]+) -([^\d-]+)$', re.MULTILINE)
 ingredient_pattern = re.compile(r'')
 rgb_pattern = re.compile(r'')
 usernames_pattern = re.compile(r'')
