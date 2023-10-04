@@ -11,9 +11,10 @@ Sushi Central - Japanese
 
 Ingredient Lists:
 Flour, Sugar, Eggs, Butter
-Tomatoes, Basil, Mozzarella, Olive Oil
-Chicken, Lettuce, Mayo, Bread
-Rice, Salmon, Avocado, Seaweed
+Tomatoes, Basil, Mozzarella, Olive Oil, Crabs
+Chicken, Lettuce, Mayo, Bread, Tortillas
+Rice, Salmon, Avocado, Seaweed, Spinach
+Beef, Irish potatoes, Onions, Okra
 
 RGB Colors:
 rgb(255, 0, 0)
@@ -40,8 +41,8 @@ Sports Update: Local Team Takes the Championship!
 Weather Warning: Heavy Rain Predicted for the Weekend
    
 Event Dates/Times:
-Jan 12, 2023 - 09:00 AM
-Feb 28, 2023 - 03:00 PM
+Oct 12, 2023 - 10:00 AM
+Nov 28, 2023 - 03:00 PM
 Dec 25, 2023 - 12:00 PM
 Oct 31, 2023 - 06:00 PM
    
@@ -49,7 +50,7 @@ Email Addresses:
 johndoe@email.com
 tech.support@webserver.net
 sales@mybusiness.org
-info@school.edu
+delights@yahoo.fr
 """
 
 # defining our regex patterns
